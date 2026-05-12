@@ -73,7 +73,7 @@ Trường hợp khách hàng có booking đã xác nhận nhưng không xuất h
 
 ### 1.5 Ràng buộc
 
-- Một chuyến Tour phải có tối thiểu *10* người và tối đa *30* người.
+- Một chuyến Tour phải có tối thiểu *10* người và tối đa mặc định là *40* người (số lượng tối đa có thể điều chỉnh linh hoạt tùy theo đặc thù từng tour).
 - Chuyến đi chỉ khởi hành khi gom đủ tối thiểu 10 người. Nếu sát ngày khởi hành (trước 3 ngày) vẫn không đủ khách, doanh nghiệp có quyền thông báo dời ngày hoặc hoàn lại 100% tiền cho khách hàng.
 - Khách hàng phải chốt danh sách (thêm mới hoặc sửa thông tin người đi) trước 5 ngày để Điều phối viên kịp chuẩn bị dịch vụ. Sau mốc này, khách vẫn có thể hủy lẻ thành viên nhưng sẽ áp dụng tỷ lệ hoàn tiền theo chính sách hủy.
 - Khách hàng phải tự đảm bảo đủ điều kiện sức khỏe tham gia hành trình. Trẻ em dưới 10 tuổi hoặc người lớn tuổi phải có người thân đi kèm.
