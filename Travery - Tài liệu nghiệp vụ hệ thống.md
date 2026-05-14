@@ -47,8 +47,8 @@ Travery (Travel Discovery) là công ty du lịch tự vận hành, sở hữu v
 
 | Bước  | Bên thực hiện       | Nội dung thực hiện                                                                                                                                                          |
 | :---: | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1** | Khách hàng          | Xem danh sách tour trên ứng dụng. Lọc theo ngày khởi hành, điểm đến, loại tour và khoảng giá.                                                                               |
-| **2** | Khách hàng          | Chọn tour, xem chi tiết lịch trình, hình ảnh, giá và số chỗ còn trống. Nhấn **"Đặt tour"**.                                                                                 |
+| **1** | Khách hàng          | Xem danh sách tour trên ứng dụng. Tìm kiếm theo từ khóa (tên, mô tả) và lọc theo ngày khởi hành, điểm đến, loại tour và khoảng giá.                                                                               |
+| **2** | Khách hàng          | Chọn tour, xem chi tiết lịch trình, hình ảnh, giá, thời lượng (ngày), điểm đánh giá trung bình và số chỗ còn trống. Nhấn **"Đặt tour"**.                                                                                 |
 | **3** | Khách hàng          | Điền đầy đủ thông tin đặt tour: *số người lớn*, *số trẻ em*, *danh sách thành viên* (họ tên + CCCD/Hộ chiếu + chế độ ăn uống), và *các ghi chú đặc biệt*. Xác nhận đặt. |
 | **4** | Khách hàng          | Thanh toán toàn bộ 100% giá trị tour qua cổng thanh toán. Chỗ được tạm giữ trong vòng **15 phút** chờ hoàn tất thanh toán.                                                   |
 | **5** | Điều phối viên      | Nhận thông báo thanh toán thành công. Kiểm tra thông tin booking, xem danh sách thành viên và yêu cầu của đoàn.                                                             |
@@ -105,7 +105,7 @@ Travery (Travel Discovery) là công ty du lịch tự vận hành, sở hữu v
 | Ràng buộc | Quy định | Xử lý hệ thống |
 |---|---|---|
 | Số lượng tối thiểu | Mỗi tour cần tối thiểu **10 người** để khởi hành. | Ứng dụng hiển thị số chỗ còn lại. Khi tour đã đủ 10 người, trạng thái chuyển sang "Đã đủ số lượng". |
-| Số lượng tối đa | Mặc định tối đa **40 người** (có thể tùy chỉnh linh hoạt cho từng tour). | Nút **"Đặt tour"** bị vô hiệu hoá khi tour đã đạt số lượng tối đa đã thiết lập. Không cho phép tạo booking mới. |
+| Số lượng tối đa | Mặc định tối đa **30 người** (có thể tùy chỉnh linh hoạt cho từng tour). | Nút **"Đặt tour"** bị vô hiệu hoá khi tour đã đạt số lượng tối đa đã thiết lập. Không cho phép tạo booking mới. |
 | Tour không đủ khách | Nếu **3 ngày trước khởi hành** vẫn dưới 10 người, Travery có thể dời ngày hoặc hoàn **100%** cho toàn bộ khách đã đặt. | Ứng dụng gửi cảnh báo tự động cho Điều phối viên khi còn 3 ngày mà chưa đủ số lượng tối thiểu. Điều phối viên liên hệ khách qua Chat để thông báo phương án. |
 | Chốt danh sách | Khách hàng phải hoàn tất thông tin danh sách thành viên **trước 5 ngày** so với ngày khởi hành. | Ứng dụng gửi nhắc nhở khi còn 6 ngày. Sau mốc 5 ngày, tính năng thêm mới/sửa thông tin bị khoá (chỉ cho phép hủy lẻ thành viên). Mọi thay đổi thông tin khác phải qua Chat. |
 | Sức khoẻ & độ tuổi | Trẻ em dưới 10 tuổi hoặc người cao tuổi cần có người thân đi kèm. Khách tự chịu trách nhiệm về điều kiện sức khoẻ. | Hiển thị lưu ý khi khách nhập số trẻ em dưới 10 tuổi trong form đặt tour. |
